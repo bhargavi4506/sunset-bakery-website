@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Bhargavi">
+        <meta name="description" content="The official website for The Sunset Bakery">
+        <title>Sunset Bakery</title>
+        <link rel="icon" href="images/images.png" type="image/x-icon">
+        <link rel="stylesheet" href="design.css">
+        <script src="main.js" defer></script>
+    </head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">Sunset Bakery</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="#menu">Memu</a>
+                </li>
+                <li>
+
+                    <a href="hours.html" target="blank">Hours</a>
+                </li>
+                <li>
+                    <a href="contact.html" target="blank">Contact</a>
+                </li>
+                <li>
+                    <a href="about.html" target="blank"> About</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+
+        <section class="hero">
+            <h2 class="hero__h2">Willkommen!</h2>
+            <figure>
+            <img src="images/tray.webp" alt="Bakery items" title="Sugary items!" width="800" height="600">
+            <figcaption class="offscreen">
+                Sweet and Hot
+            </figcaption>
+        </figure>
+        </section>
+
+    <hr>
+    <main class="main">
+        <article id="Menu" class="main__article menu">
+        <h2 class="menu__h2">Our Menu</h2>
+
+        <!--  <div class="menu__container">
+            <div class="menu__header">Items</div>
+            <div class="menu__header">Price</div>
+
+            <div class="menu__item menu__cr"> Cream Cake</div>
+            <div class="menu__item"> Rs.40/piece</div>
+
+            <div class="menu__item menu__cr"> Cool Cake </div>
+            <div class="menu__item"> Rs.90/piece</div>
+
+            <div class="menu__item menu__cr"> Donuts </div>
+            <div class="menu__item"> Rs.80/piece</div>
+
+            <div class="menu__item menu__cr"> Pastry</div>
+            <div class="menu__item"> Rs.100/piece</div>
+
+            <div class="menu__item menu__cr"> Cookies</div>
+            <div class="menu__item"> Rs.30/piece</div>
+
+            <div class="menu__item menu__cr"> Sandwiches</div>
+            <div class="menu__item"> Rs.90/piece</div>
+
+            <div class="menu__item menu__cs">chips &amp; Sauce Rs.2</div>
+        </div>    --> 
+
+        <table class="menu__container"> 
+            <caption class="offscreen">Memu Card</caption>
+            <thead>
+                <tr>
+                    <th class="menu__header" scope="col">Items </th>
+                    <th class="menu__header" scope="col">Price </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="menu__item menu__cr" scope="row" rowspan="1">
+                        Cream Cake    
+                    </th>
+                    
+                    <td class="menu__item">
+                        Rs.40/piece
+                    </td>
+                </tr>
+                <tr>
+                    <th class="menu__item menu__cc" scope="row" rowspan="1">
+                        Cool Cake    
+                    </th>
+                    <td class="menu__item">
+                        Rs.90/piece
+                    </td>
+                </tr>
+                <tr>
+                    <th class="menu__item menu__d" scope="row" rowspan="1">
+                        Donuts    
+                    </th>
+                    <td class="menu__item">
+                        Rs.80/piece
+                    </td>
+                </tr>
+                <tr>
+                    <th class="menu__item menu__p" scope="row" rowspan="1">
+                        Pastry    
+                    </th>
+                    <td class="menu__item">
+                        Rs.100/piece
+                    </td>
+                </tr>  <tr>
+                    <th class="menu__item menu__c" scope="row" rowspan="1">
+                        Cookies     
+                    </th>
+                    <td class="menu__item">
+                        Rs.30/piece
+                    </td>
+                </tr>
+                <tr>
+                    <th class="menu__item menu__s" scope="row" rowspan="1">
+                        Sandwiches   
+                    </th>
+                    <td class="menu__item">
+                        Rs.90/piece
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="menu__item menu__cs" colspan="2">
+                        chips &amp; Sauce Rs.2
+                    </td>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        <p class="center"> 
+            <a href="#"> Back to Top</a>
+        </p>
+        </article>
+    </main>
+    <hr>
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy; <time id="year"></time></span> 
+            <span class="nowrap">Sunset Bakery</span>
+            </p>
+    </footer>
+</body>
+
+</html>
