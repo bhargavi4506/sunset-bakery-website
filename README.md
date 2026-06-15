@@ -18,3 +18,6 @@ A responsive bakery website built using HTML, CSS, and JavaScript.
 * HTML5
 * CSS3
 * JavaScript
+
+## Home Page
+<img width="995" height="970" alt="image" src="https://github.com/user-attachments/assets/9fc4e180-4693-4bdf-bb2f-c6e8936823dd" />
